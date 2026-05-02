@@ -1,0 +1,44 @@
+#Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env/
+.venv/
+
+# pytest Cache
+.pytest_cache/
+.coverage
+htmlcov/
+CACHEDIR.TAG
+
+# Data Files (Too large, not uploaded)
+*.parquet
+*.csv
+*.7z
+*.zip
+*.tar.gz
+Data_YellowTaxiRecord_3mo/
+
+# IDE Configuration (Local, not needed for others)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS Junk Files
+.DS_Store
+.__MACOSX
+._.DS_Store
+
+# Packaged  Generated Files
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
