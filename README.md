@@ -67,6 +67,16 @@ A Random Forest Regressor is used to predict next-hour demand.
 
 Model performance is evaluated using Root Mean Squared Error (RMSE).
 
+## 📁 Data Setup (Required Before Running)
+The dataset `Data_YellowTaxiRecord_3mo` **cannot be uploaded to GitHub** due to size limits.
+
+**Please follow these steps:**
+1. Download the provided data zip file
+2. **Unzip it to get the folder: `Data_YellowTaxiRecord_3mo`**
+3. **Place this entire folder directly into the project ROOT DIRECTORY**
+
+The final structure should look like this:
+
 
 ## Project Structure
 
@@ -89,15 +99,22 @@ Model performance is evaluated using Root Mean Squared Error (RMSE).
 │   ├── test_features.py
 ├── pytest.ini
 ├── requirements.txt
+|—— setup.py
 └── README.md
 
 
-## Installation
+## Installation Steps
 
-Install required dependencies:
+1. Open the project root directory: 5270_Final_Project/
+
+2. Open a terminal in this directory and run:
+
+   pip install -e .
+
+This installs the project as a local Python package named `taxi_demand`
+and sets up all required dependencies.
 
 
-pip install pandas scikit-learn pyarrow pytest
 
 
 ## How to Run
